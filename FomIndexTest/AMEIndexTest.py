@@ -19,8 +19,8 @@ def calculate_ame(original_image_path, enhanced_image_path):
     ame = np.mean(abs_error)
 
     return ame
-originalPath = "../resultImages/waterwall/waterfall.jpg"
-enhancePath = "../resultImages/waterwall/waterfall[21].jpg"
+originalPath = "../resultImages/Tian'anmen/Door.jpg"
+enhancePath = "../resultImages/Tian'anmen/this_door.jpg"
 
 result = calculate_ame(originalPath,enhancePath)
 print(result)
